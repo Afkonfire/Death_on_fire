@@ -120,8 +120,6 @@ async def alive(client: Client, e: Message):
         Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `{pyro_vr}` \n"
         Alive_msg += f"► Aᴄᴛɪᴠᴇ IDs : `{ids}` \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
-        await e.reply_photo(
-        photo=ALIVE_PIC,
         caption=Alive_msg,
         reply_markup=InlineKeyboardMarkup(
                 [[
@@ -139,8 +137,6 @@ async def alive(client: Client, e: Message):
         Alive_msg += f"► ᴠᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► Pʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.4.15` \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
-        await e.reply_photo(
-        photo=ALIVE_PIC,
         caption=Alive_msg,
         reply_markup=InlineKeyboardMarkup(
             [
