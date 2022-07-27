@@ -23,7 +23,7 @@ async def hello_world(client: Client, message: Message):
     await asyncio.sleep(0.2) 
     await mg.edit("𝙰𝙽𝙳") 
     await asyncio.sleep(0.2) 
-    await mg.edit("𝙾𝙽𝙻𝚈 𝙲𝚄𝚃𝙴 𝚂𝙾 𝙲𝚄𝚃𝙴")
+    await mg.edit("YOU ARE SO CUTE")
 
 
 add_command_help(
